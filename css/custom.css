@@ -12,7 +12,12 @@
   background-clip: padding-box;
   -webkit-transition: color 0.2s linear, background-color 0.2s linear;
   transition: color 0.2s linear, background-color 0.2s linear;
+  transition: transform .2s; 
 }
+.btn:hover {
+   transform: scale(1.2);
+}
+
 .btn.btn-default {
   color: #000;
   background-color: #ffffff;
