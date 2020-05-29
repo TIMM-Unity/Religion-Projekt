@@ -6,6 +6,7 @@ $(document).ready(function()
     image.animate({opacity: "0."}, "slow").animate({opacity : "1.0"}, "slow");
   })
 
+
   var groesser = $(".btn ,.groesser");
 
   groesser.hover(function(){

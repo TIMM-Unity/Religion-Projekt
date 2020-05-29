@@ -21,6 +21,19 @@
     color: white;
   }
   </style>
+
+  <script>
+    //Internet überprüfen
+    var online = window.navigator.onLine;
+
+    if (online == false) {
+        alert("Bitte stelle eine Netzwerkverbindung her!")
+    }
+
+    //Play Sound
+    var audio = new Audio('https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg');
+    audio.play();
+  </script>
 </head>
 
 <body>
@@ -92,21 +105,21 @@
           <!-- -->
           <div class="carousel-caption d-none d-md-block">
             <h3>Martin Luther King</h3>
-            <p>This is a description for the first slide.</p>
+
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('https://c4.wallpaperflare.com/wallpaper/192/235/598/i-have-a-dream-martin-luther-king-quotes-wallpaper-preview.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>Martin Luther King</h3>
-            <p>This is a description for the .</p>
+
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/150727105245-mlk-i-have-a-dream-super-tease.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>Martin Luther King</h3>
-            <p>This is a description for the third slide.</p>
+
           </div>
         </div>
       </div>
@@ -170,7 +183,7 @@
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/1200x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="https://de.wikipedia.org/wiki/Martin_Luther_King#/media/Datei:Martin_Luther_King_press_conference_01269u_edit.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="Steckbrief.html">Steckbrief über Martin Luther King</a>
@@ -196,39 +209,6 @@
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Project Three</a>
-            </h4>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/1200x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Four</a>
-            </h4>
-            <p class="card-text"</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Five</a>
-            </h4>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Six</a>
             </h4>
             <p class="card-text"></p>
           </div>
