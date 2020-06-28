@@ -6,6 +6,10 @@
   left: 0;
   overflow: hidden;
 }
+.pic{
+  position: relative;
+}
+
 
 .modal-dialog {
   position: fixed;

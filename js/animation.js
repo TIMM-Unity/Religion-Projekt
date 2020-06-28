@@ -21,6 +21,18 @@ $(document).ready(function()
 var text = $("#text");
 var clickcounter=0;
 
+$(".pic").hover(function () {
+        $(this).animate({
+            width: "750px",
+            height: "auto"
+        });
+    }, function () {
+        $(this).animate({
+            width: "400px",
+            height: "auto"
+        });
+    });
+
 text.hover(function(){
   //funktion1
   $(this).animate({fontSize: '1.5em'});
